@@ -1,0 +1,15 @@
+# Imperial Movers robots.txt
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Allow Google Bot and other major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://imperialmovers.com/sitemap.xml
